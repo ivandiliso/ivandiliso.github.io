@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ae92236b.css",
+    "main.js": "/static/js/main.083c223f.js",
+    "static/media/ANL212.pdf": "/static/media/ANL212.0974b55d9c1cc4e9f612.pdf",
+    "static/media/MDSA.pdf": "/static/media/MDSA.5b474bf2cbb314226ca1.pdf",
+    "static/media/AA.pdf": "/static/media/AA.03f2e472d080474e8ac1.pdf",
+    "static/media/MDSB.pdf": "/static/media/MDSB.2f2ff57f57d951364333.pdf",
+    "static/media/OPT.pdf": "/static/media/OPT.4c54d7a023b224e772ae.pdf",
+    "static/media/ALG.pdf": "/static/media/ALG.dd6ff7c904781c23132e.pdf",
+    "static/media/ANL2.pdf": "/static/media/ANL2.bc8154910766f473e1f3.pdf",
+    "static/media/AAMap.pdf": "/static/media/AAMap.1501b67f3069c48b920a.pdf",
+    "static/media/DataMining.pdf": "/static/media/DataMining.f1cea3fa1caa1d6652cb.pdf",
+    "static/media/Economia.pdf": "/static/media/Economia.b5f82fa735285b30f02d.pdf",
+    "static/media/BigData.pdf": "/static/media/BigData.64cfe242a7067b4b9fc3.pdf",
+    "index.html": "/index.html",
+    "main.ae92236b.css.map": "/static/css/main.ae92236b.css.map",
+    "main.083c223f.js.map": "/static/js/main.083c223f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae92236b.css",
+    "static/js/main.083c223f.js"
+  ]
+}
