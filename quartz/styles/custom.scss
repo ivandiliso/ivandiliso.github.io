@@ -1,0 +1,32 @@
+@use "./variables.scss" as *;
+
+// put your custom CSS here!
+
+.cat-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 20%;
+}
+
+.cat-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.folder-title {
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+.explorer a {
+  font-size: 1.5rem;
+}
+
+
+/* H2 - bright accent */
+h2 {
+  color: var(--secondary);
+}
+
+
