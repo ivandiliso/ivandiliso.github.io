@@ -2,7 +2,6 @@
 title: resume
 ---
 
-
 # Education
 
 ## M.Sc in Data Science
