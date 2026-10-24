@@ -2,15 +2,15 @@
 title: publications
 ---
 
-<br>
+## Peer Reviewed
 
->**Return of the Schema: Building Complete Datasets for Machine Learning and Reasoning on Knowledge Graphs**
+>**JediKG - Return of the Schema: Building Complete Datasets for Machine Learning and Reasoning on Knowledge Graphs**
 
 **Authors:** Ivan Diliso, Roberto Barile, Claudia d'Amato, Nicola Fanizzi
-**Venue:** *ArXiv Preprint* (2026)
+**Venue:** *International Semantic Web Conference (ISWC)* (2026)
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red?style=flat-square)](https://arxiv.org/abs/2602.14795)
-[![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/ivandiliso/kg-saf)
+[![Paper](https://img.shields.io/badge/Paper-Springer-orange?style=flat-square)](https://link.springer.com/chapter/10.1007/978-3-032-08887-1_11)
+[![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/ara-t3/jedikg)
 
 ---
 
@@ -37,6 +37,18 @@ title: publications
 
 ---
 
+>**A Hybrid Quantum–Classical Framework for Binary Classification in Online Learning**
+
+**Authors:** Corrado Loglisci, Ivan Diliso, Donato Malerba
+**Venue:** *SEBD 2023 – 31st Symposium on Advanced Database Systems* (2023)
+
+
+[![Paper](https://img.shields.io/badge/Paper-CEUR-blue?style=flat-square)](https://ceur-ws.org/Vol-3478/paper79.pdf)
+
+---
+
+## Preprints
+
 >**Enhancing PyKEEN with Multiple Negative Sampling Solutions for Knowledge Graph Embedding Models**
 
 **Authors:** Claudia d'Amato, Ivan Diliso, Nicola Fanizzi, Zafar Saeed
@@ -47,10 +59,3 @@ title: publications
 
 ---
 
->**A Hybrid Quantum–Classical Framework for Binary Classification in Online Learning**
-
-**Authors:** Corrado Loglisci, Ivan Diliso, Donato Malerba
-**Venue:** *SEBD 2023 – 31st Symposium on Advanced Database Systems* (2023)
-
-
-[![Paper](https://img.shields.io/badge/Paper-CEUR-blue?style=flat-square)](https://ceur-ws.org/Vol-3478/paper79.pdf)

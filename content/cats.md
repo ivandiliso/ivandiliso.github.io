@@ -87,4 +87,15 @@ Broke my glass, gave Nacho, Java and Crystal mycosis, but very cute overall
 
 ---
 
+## Gufino
+
+Poo and pee all over my bathroom everyday for 30 days, 10/10 experience (manual pissing)
+
+<div class="cat-image"><img src="./images/cats/gufino.jpeg" ></div> 
+
+
+---
+
+
+
 
