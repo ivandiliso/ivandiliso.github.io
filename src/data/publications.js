@@ -8,27 +8,27 @@ export const peerReviewed = [
     year: 2026,
     awards: ["Spotlight Paper", "Best Paper Nominee"],
     links: [
-      { label: "Paper", href: "https://link.springer.com/chapter/10.1007/978-3-032-08887-1_11" },
+      { label: "Paper", href: "https://link.springer.com/chapter/10.1007/978-3-032-42026-8_21" },
       { label: "Code", href: "https://github.com/ara-t3/jedikg" },
     ],
   },
   {
-    title: "Towards Semantically Enriched Knowledge Graph Embedding through Ontology Axiom Integration",
-    authors: "Ivan Diliso",
-    venue: "RuleML+RR Doctoral Consortium",
-    year: 2025,
-    awards: ["Best Doctoral Award"],
-    links: [{ label: "Paper", href: "https://ceur-ws.org/Vol-4083/paper47.pdf" }],
-  },
-  {
     title: "Learning Interpretable Probabilistic Models and Schema Axioms for Knowledge Graphs",
     authors: "Ivan Diliso, Nicola Fanizzi, Claudia d'Amato",
-    venue: "RuleML+RR Main Track",
+    venue: "International Joint Conference on Rules and Reasoning (RuleML+RR)",
     year: 2025,
     links: [
       { label: "Paper", href: "https://link.springer.com/chapter/10.1007/978-3-032-08887-1_11" },
       { label: "Code", href: "https://github.com/ivandiliso/sphm4kg" },
     ],
+  },
+  {
+    title: "Towards Semantically Enriched Knowledge Graph Embedding through Ontology Axiom Integration",
+    authors: "Ivan Diliso",
+    venue: "International Joint Conference on Rules and Reasoning (RuleML+RR)",
+    year: 2025,
+    awards: ["Best Doctoral Award"],
+    links: [{ label: "Paper", href: "https://ceur-ws.org/Vol-4083/paper47.pdf" }],
   },
   {
     title: "A Hybrid Quantum–Classical Framework for Binary Classification in Online Learning",
