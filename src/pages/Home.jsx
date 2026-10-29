@@ -12,12 +12,20 @@ const profiles = [
 
 export default function Home() {
   return (
-    <Page title="Hi, I'm Ivan">
-      <p className="muted">
-        <GraduationCap className="icon" />
-        Ph.D. student · University of Bari Aldo Moro, Italy 🇮🇹
-      </p>
-      <Links links={profiles} />
+
+
+    <Page>
+      <div className="intro">
+        <div>
+          <h1>hi, i'm ivan</h1>
+          <p className="muted">
+            <GraduationCap className="icon" />
+            Ph.D. student · University of Bari Aldo Moro, Italy 🇮🇹
+          </p>
+          <Links links={profiles} />
+        </div>
+        <img className="intro__photo" src="images/propic.jpeg" alt="Ivan Diliso" />
+      </div>
 
       <Section title="research">
         <p>
@@ -31,6 +39,7 @@ export default function Home() {
           quantum computing, with a focus on hybrid models for contrastive learning and clustering.
         </p>
       </Section>
-    </Page>
+   </Page>
+
   );
 }

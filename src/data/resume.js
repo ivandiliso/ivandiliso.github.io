@@ -63,7 +63,7 @@ export const reviewing = {
 };
 
 export const committees = [
-  "Program Committee Member, NeSy Journal Special Issue on Neurosymbolic Benchmarks",
+  "Program Editorial Board, NeSy Journal Special Issue on Neurosymbolic Benchmarks",
   "Web Presence and Publicity Chair, ISWC 2026",
 ];
 
@@ -82,6 +82,7 @@ export const skills = {
 };
 
 export const training = [
+  "European Summer School on Artificial Intelligence (ESSAI 2026), Wien",
   "Reasoning Web Summer School (RuleML+RR 2025), Istanbul",
   "DeepLearn School Volunteer, Bari 2023",
 ];

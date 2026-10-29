@@ -33,11 +33,11 @@ export const peerReviewed = [
   {
     title: "A Hybrid Quantum–Classical Framework for Binary Classification in Online Learning",
     authors: "Corrado Loglisci, Ivan Diliso, Donato Malerba",
-    venue: "SEBD 2023 – 31st Symposium on Advanced Database Systems",
+    venue: "Symposium on Advanced Database Systems (SEBD)",
     year: 2023,
     links: [{ label: "Paper", href: "https://ceur-ws.org/Vol-3478/paper79.pdf" }],
   },
-];
+];XPathExpression
 
 export const preprints = [
   {
