@@ -12,7 +12,7 @@ const profiles = [
 
 export default function Home() {
   return (
-    <Page title="hi, i'm ivan">
+    <Page title="Hi, I'm Ivan">
       <p className="muted">
         <GraduationCap className="icon" />
         Ph.D. student · University of Bari Aldo Moro, Italy 🇮🇹
