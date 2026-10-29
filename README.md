@@ -1,20 +1,60 @@
+# Ivan Diliso — personal website
 
-# Personal Website in Obsidian + QuartzV5
+React + Vite + SCSS. Minimal, Iosevka Charon, blue / purple / cyan palette.
 
-# Built with Quartz v5
+## Work on it with live updates
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+    npm install       # once
+    npm run dev       # opens http://localhost:5173
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+Leave `npm run dev` running and keep the browser open. Every time you save a
+file (a page, the data, or a style) the browser updates by itself. Style
+changes apply without even reloading. Stop it with Ctrl+C.
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## Publish
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+    npm run build     # static site in dist/
+    npm run preview   # check the built version locally
 
-## Sponsors
+Upload the contents of `dist/` anywhere (GitHub Pages works as is).
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+## Change the colours
+
+Edit `src/styles/_colors.scss`:
+
+    $primary    blue    links, nav, 1st section
+    $secondary  purple  2nd section, bold text
+    $tertiary   cyan    3rd section, badges
+
+Sections, nav items, projects and cats cycle through the three colours
+automatically. To force a colour on one entry: `<Entry color="secondary">`.
+
+## Lowercase
+
+Only the header, nav, page titles, section titles and footer are lowercase
+(one rule at the top of `main.scss`). Everything else keeps its capitals.
+
+## Icons
+
+- Links show the favicon of the site they point to, automatically.
+- Other icons come from lucide-react (https://lucide.dev/icons), e.g.
+  `import { Calendar } from "lucide-react"` then `<Calendar className="icon" />`.
+
+## Where things are
+
+    src/data/          all the text: publications, projects, resume, cats
+    src/pages/         one file per page
+    src/components/    reusable pieces (Page, Section, Entry, Links, Navbar, Footer)
+    src/styles/
+      _colors.scss     the three colours
+      main.scss        all the styles (one short file)
+
+## Images
+
+- `public/images/cats/*.jpeg` — cat photos (already included)
+
+## Add a page
+
+1. Create `src/pages/MyPage.jsx` using the `<Page>` component.
+2. Add a `<Route>` in `src/App.jsx`.
+3. Add a link in `src/components/Navbar.jsx`.
